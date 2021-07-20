@@ -50,5 +50,6 @@ export const getStaticProps = async () => {
         id: item._id.toString(),
       })),
     },
+    revalidate: 1,
   };
 };
